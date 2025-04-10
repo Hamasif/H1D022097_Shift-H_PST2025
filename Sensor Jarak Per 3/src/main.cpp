@@ -1,12 +1,8 @@
 #include <Arduino.h>
 
-// deklarasikan pin dalam variabel
-
 int echoPin = D1;
 int trgPin = D0;
 int lepPin = D2;
-
-// deklarasikan variabel untuk menghitung jarak
 
 long duration;
 int distance;
